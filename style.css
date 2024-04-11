@@ -1,0 +1,21 @@
+.cuteButton {
+  margin: 20px;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, rgb(50, 105, 2) , rgb(6, 87, 80));
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding: 10px;
+  width: 100px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  transition: 2s;
+}
+
+.cuteButton:hover {
+  cursor: pointer;
+  width: 150px;
+  background-image: linear-gradient(to right, rgb(66, 135, 5) , rgb(7, 121, 111));
+
+  transition: 2s;
+
+}
